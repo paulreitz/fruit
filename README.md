@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+## Fruit Data
+The first of what will be many projects for collecting and colating data. This one deals with collecting the nutritional value of fruit into a single location and in a more usable and consistant format. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This information is, of course, available all over the internet. But I've found it's often inconsistant and incomplete. Some sources give only vitamin information, others give more information but in differnt formats. Also, most sources only give a limited number of entries or an inefficient search method to meet my needs.
 
-## Available Scripts
+And there's the format of the information: Some are in PDF format, others are blog posts, or APIs that are overly complex for what I need.
 
-In the project directory, you can run:
+## Why I'm Doing This
+The single most difficult thing I've found in attempting to learn machine learning is finding useful and interesting data sets to practice with.
 
-### `yarn start`
+For the most part, the concepts, math and algorithms are easy enough to understand. But, like most skills, require practice. Places like [UCI](http://archive.ics.uci.edu/ml/index.php) and [Kaggle](https://www.kaggle.com/) provide a lot of datasets to work with. But sifting through those sets and trying to work in subjects I often don't have enough information on ends up taking up most of my time.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+So, using the skills I already have, I'm building my own datasets to practice with. Sure, this isn't a massive dataset, and I'm not going to do anything ground breaking with it. The purpose is to get in some practice and solidify my understanding of the concepts involved.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Yes, I know...
+The subject of this project deals with a very finite amount of data. No matter how many entries I put in the database, there are only so many fruit that exist in the world. 
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Because of this, I made some decisions while designing this system that I would **never** make with a larger more open ended set of data. I took some shortcuts that I know I would never get away with when dealing with larger datasets.
